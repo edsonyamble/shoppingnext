@@ -1,4 +1,5 @@
 npm install axios @tanstack/react-query js-cookie geist react-icons react-redux redux-persist sass
+bun add axios @tanstack/react-query js-cookie geist react-icons react-redux redux-persist sass 
 axios запрос на сервере 
 @tanstack/react-query запрос на сервере 
  clsx сравнение классы 
@@ -12,6 +13,7 @@ axios запрос на сервере
 
 типизация 
    npm install @trivago/prettier-plugin-sort-imports prettier @types/js-cookie
+    bun add -D @trivago/prettier-plugin-sort-imports prettier @types/js-cookie
     @trivago/prettier-plugin-sort-imports типизация претиер 
      prettier претиер 
       @types/js-cookie типизация для куки 
