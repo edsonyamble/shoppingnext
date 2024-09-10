@@ -1,0 +1,45 @@
+npm install axios @tanstack/react-query js-cookie geist react-icons react-redux redux-persist sass
+axios запрос на сервере 
+@tanstack/react-query запрос на сервере 
+ clsx сравнение классы 
+  js-cookie работа с кукими 
+ geist шрифт 
+ react-icons  икон 
+ react-redux стейт менеджер 
+  redux-persist стейт менеджер 
+   sass препосесер 
+   для работы с формами он сам автоматически установить все что надо 
+
+типизация 
+   npm install @trivago/prettier-plugin-sort-imports prettier @types/js-cookie
+    @trivago/prettier-plugin-sort-imports типизация претиер 
+     prettier претиер 
+      @types/js-cookie типизация для куки 
+
+      add prettier file and next config чтобы аватар из гугле и яндекс хорошо работало и  асинк функции для погружнение файл фото из серевере 
+
+      shadcn/ui библиетека нест жс 
+      √ Would you like to use TypeScript (recommended)? ... no / yes
+√ Which style would you like to use? » Default
+√ Which color would you like to use as base color? » Slate
+√ Where is your global CSS file? ... src/app/globals.scss
+√ Would you like to use CSS variables for colors? ... no / yes
+√ Are you using a custom tailwind prefix eg. tw-? (Leave blank if not) ...
+√ Where is your tailwind.config.js located? ... tailwind.config.js
+√ Configure the import alias for components: ... @/components
+√ Configure the import alias for utils: ... @utils/clsx
+√ Are you using React Server Components? ... no / yes
+√ Write configuration to components.json. Proceed? ... yes
+
+add constaants file там есть название сайта и дескриптион которы подключаем на layout tsx
+
+npm install react-hot-toast библиотека для toaster 
+
+создание типов  shared file 
+
+//Omit  это исключить
+//Pick  это выбрать
+в types
+config all url backend and frontend 
+inteceptor получение запросы  получение продукт для всех авторизован или нет но получение профил только для авторизован  file api 
+service файл пишем запросы  на сереве 
